@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: my-database
+spec:
+  replicas: 3
+  serviceName: my-db-service
+  selector:
+    matchLabels:
+      app: my-database
+  template:
+    metadata:
+      labels:
+        app: my-database
+    spec:
+      containers:
+      - name: db
+        image: mongo:3.7.9
+        ports:
+        - containerPort: 27017
+          name: mongodb
+        volumeMounts:
+        - name: data
+          mountPath: /data
+  volumeClaimTemplates:
+  - metadata:
+      name: data
+    spec:
+      accessModes: [ReadWriteOnce]
+      storageClassName: standard
+      resources:
+        requests:
+          storage: 10Gi

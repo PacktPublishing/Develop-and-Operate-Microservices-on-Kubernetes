@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: test-pod
+  namespace: default
+spec:
+  containers:
+  - name: service
+    image: nginx
+    ports:
+      - containerPort: 80
+    env:
+      - name: SOME_ENV_VAR
+        value: Hello World

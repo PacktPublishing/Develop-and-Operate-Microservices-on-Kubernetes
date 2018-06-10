@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-db-service
+spec:
+  ports:
+  - port: 27017
+    name: mongodb
+  clusterIP: None
+  selector:
+    app: my-database
