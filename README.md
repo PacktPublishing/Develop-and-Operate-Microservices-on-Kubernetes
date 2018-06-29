@@ -22,14 +22,15 @@ By the end of the course, you will have mastered best practices and leveraged so
 ## Instructions and Navigation
 ### Assumed Knowledge
 To fully benefit from the coverage included in this course, you will need:<br/>
-This course targets architects, designers and evangelists who want to understand how Kubernetes works and improve their testing and deployment skills.
-### Technical Requirements
-This course has the following software requirements:<br/>
 ● Microservice basics
 
 ● Working knowledge of Docker
 
 ● How to work on a UNIX or Windows shell
+
+### Technical Requirements
+This course has the following software requirements:<br/>
+
 
 ● kubectl
 
