@@ -26,10 +26,15 @@ This course targets architects, designers and evangelists who want to understand
 ### Technical Requirements
 This course has the following software requirements:<br/>
 ● Microservice basics
+
 ● Working knowledge of Docker
+
 ● How to work on a UNIX or Windows shell
+
 ● kubectl
+
 ● minikube
+
 ● Your favorite code editor
 
 
