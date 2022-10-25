@@ -46,3 +46,7 @@ This course has the following software requirements:<br/>
 
 * [Learning Kubernetes [Video]](https://www.packtpub.com/virtualization-and-cloud/learning-kubernetes-video?utm_source=github&utm_medium=repository&utm_campaign=9781787126541)
 
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781789135206">https://packt.link/free-ebook/9781789135206 </a> </p>
